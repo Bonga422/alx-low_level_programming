@@ -1,10 +1,14 @@
 #include "main.h"
 /**
- * times_table - print the 9 timea table, starting with 0
- * Return: empty output
+ * times_table - a function that prints the 9
+ * times table
+ *
+ * Description: it prints it followed by , and 2 spaces
+ *
  */
 
 void times_table(void)
+
 {
 int x, y, z, u, d;
 for (x = 0; x <= 9; x++)
@@ -15,7 +19,7 @@ z = x * y;
 if (z > 9)
 {
 u = z % 10;
-d = (z -u) / 10;
+d = (z - u) / 10;
 _putchar(44);
 _putchar(32);
 _putchar(d + '0');
